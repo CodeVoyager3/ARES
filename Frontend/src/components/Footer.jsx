@@ -65,7 +65,7 @@ function Footer() {
                 <div className="mt-12 pt-8 border-t border-gray-800">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-gray-400 text-sm text-center md:text-left">
-                            © 2024 GuardianEye. All rights reserved.
+                            © 2025 GuardianEye. All rights reserved.
                         </p>
                         <div className="flex gap-6 text-sm">
                             <a href="#" className="text-gray-400 hover:text-white transition-colors">Status</a>

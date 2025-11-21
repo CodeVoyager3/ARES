@@ -34,7 +34,7 @@ function LandingPage() {
             </div>
 
             {/* Content - with relative positioning to stay above LightRays */}
-            <nav className="relative z-10 flex items-center justify-between w-full px-4 sm:px-6 lg:px-8 py-4 sm:py-6 mx-auto max-w-7xl text-white">
+            <nav className=" sticky z-50 flex items-center justify-between w-full px-4 sm:px-6 lg:px-8 py-4 sm:py-6 mx-auto max-w-7xl text-white">
                 <div className="z-20">
                     <h1 className="text-2xl sm:text-3xl font-bold text-gray-200">GuardianEye</h1>
                 </div>
@@ -83,7 +83,7 @@ function LandingPage() {
                             </li>
                             <li className="pt-2">
                                 <button className="w-full flex items-center justify-center gap-2 px-6 py-2 font-semibold text-gray-900 bg-gray-200 rounded-full cursor-pointer hover:bg-white transition-all">
-                                    <span>Login</span>
+                                    <span className='text-amber-100'>Login</span>
                                 </button>
                             </li>
                         </ul>
