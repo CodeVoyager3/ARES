@@ -1,0 +1,19 @@
+@import "tailwindcss";
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+button{
+  background: -webkit-linear-gradient(to right, #1cbfff, #1b17ee81);
+  background: linear-gradient(to right, #0389d6, rgb(64, 27, 214));
+  color:rgb(218, 223, 231)
+}
+
+nav{
+  font-family: "Scope One", serif;
+  font-weight: 400;
+}
+
