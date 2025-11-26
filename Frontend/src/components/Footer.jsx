@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center mb-8">
                     <div className="flex items-center gap-2 mb-4 md:mb-0">
-                        <Shield className="h-6 w-6 text-[#00FFFF]" />
+                        <img src="/logo.png" alt="A.R.E.S. Logo" className="h-8 w-auto" />
                         <span className="font-bold text-lg tracking-tighter text-white">A.R.E.S.</span>
                     </div>
 

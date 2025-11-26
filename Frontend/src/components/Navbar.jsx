@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Shield, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
               className="flex-shrink-0 text-[#00FFFF] flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
             >
-              <Shield className="h-8 w-8" />
+              <img src="/logo.png" alt="A.R.E.S. Logo" className="h-10 w-auto" />
               <span className="font-bold text-xl tracking-tighter">A.R.E.S.</span>
             </motion.div>
           </div>
