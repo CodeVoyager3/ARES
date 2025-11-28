@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { GridScan } from './GridScan';
 
 const Hero = () => {
+    const navigate = useNavigate();
+
     return (
         <section className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden bg-[#101010]" id="system">
             <div className="absolute inset-0 z-0 opacity-60">
@@ -41,7 +44,10 @@ const Hero = () => {
                     transition={{ delay: 0.8, duration: 0.5 }}
                     className="pointer-events-auto"
                 >
-                    <button className="bg-transparent border border-[#00FFFF] text-[#00FFFF] px-8 py-4 text-lg font-bold hover:bg-[#00FFFF] hover:text-[#101010] transition-all duration-300 neon-border relative overflow-hidden group cursor-pointer">
+                    <button
+                        onClick={() => navigate('/dashboard')}
+                        className="bg-transparent border border-[#00FFFF] text-[#00FFFF] px-8 py-4 text-lg font-bold hover:bg-[#00FFFF] hover:text-[#101010] transition-all duration-300 neon-border relative overflow-hidden group cursor-pointer"
+                    >
                         <span className="relative z-10">INITIATE SYSTEM SCAN</span>
                         <div className="absolute inset-0 bg-[#00FFFF] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out z-0"></div>
                     </button>

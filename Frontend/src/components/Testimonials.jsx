@@ -65,7 +65,7 @@ const Testimonials = () => {
     const containerRef = useRef(null);
 
     return (
-        <section className="py-20 bg-[#101010] overflow-hidden">
+        <section className="py-20 bg-[#0A0A0A] overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">FIELD REPORTS — CONFIRMED EFFICACY</h2>
                 <div className="h-1 w-20 bg-[#00FFFF]" />

@@ -34,7 +34,7 @@ const FeatureCard = ({ title, description, icon: Icon, className, delay }) => (
 
 const Features = () => {
     return (
-        <section className="py-20 bg-[#101010]" id="features">
+        <section className="py-20 bg-[#0A0A0A]" id="features">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">CORE CAPABILITIES</h2>
